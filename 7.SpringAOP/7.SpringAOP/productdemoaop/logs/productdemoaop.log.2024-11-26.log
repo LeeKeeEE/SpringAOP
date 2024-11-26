@@ -1,0 +1,1275 @@
+2024-11-26 11:17:46.059 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-26 11:17:46.270 [main] INFO  c.e.x.j.p.controller.AdminProductControllerTest - Starting AdminProductControllerTest using Java 17.0.12 with PID 24628 (started by 李可羿 in D:\Code\Java\SpringAOP\7.SpringAOP\7.SpringAOP\productdemoaop)
+2024-11-26 11:17:46.273 [main] DEBUG c.e.x.j.p.controller.AdminProductControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-11-26 11:17:46.277 [main] INFO  c.e.x.j.p.controller.AdminProductControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-26 11:17:52.964 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-26 11:17:52.979 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-26 11:17:54.182 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1140 ms. Found 1 JPA repository interface.
+2024-11-26 11:17:54.467 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-26 11:17:54.480 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 11:17:54.729 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.edu.xmu.javaee.productdemoaop.ProductRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-26 11:17:54.731 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 142 ms. Found 0 Redis repository interfaces.
+2024-11-26 11:18:00.331 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-11-26 11:18:02.131 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-26 11:18:02.294 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-26 11:18:02.635 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-26 11:18:04.272 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-26 11:18:07.257 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-26 11:18:07.262 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-26 11:18:10.938 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:10.941 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:11.188 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:11.438 [main] INFO  o.s.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-26 11:18:12.073 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:12.082 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:13.056 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:13.102 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:13.105 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:13.187 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:14.937 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-26 11:18:20.227 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-11-26 11:18:20.228 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2024-11-26 11:18:20.276 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2024-11-26 11:18:20.423 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 187 ms
+2024-11-26 11:18:20.724 [main] INFO  c.e.x.j.p.controller.AdminProductControllerTest - Started AdminProductControllerTest in 35.561 seconds (process running for 39.832)
+2024-11-26 11:18:24.286 [main] DEBUG c.e.x.j.p.m.g.P.updateByPrimaryKeySelective - ==>  Preparing: UPDATE goods_product SET `name` = ?, `original_price` = ?, `modifier_id` = ?, `gmt_modified` = ?, `status` = ? WHERE (`id` = ?)
+2024-11-26 11:18:24.378 [main] DEBUG c.e.x.j.p.m.g.P.updateByPrimaryKeySelective - ==> Parameters: 奶糖(String), 200(Long), 1580(Long), 2024-11-26T11:18:24.160531100(LocalDateTime), 0(Byte), 1580(Long)
+2024-11-26 11:18:24.572 [main] DEBUG c.e.x.j.p.m.g.P.updateByPrimaryKeySelective - <==    Updates: 1
+2024-11-26 11:18:25.166 [main] DEBUG c.e.x.j.p.controller.AdminProductController - getProductById: id = 1580 
+2024-11-26 11:18:25.168 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 1580, all = false
+2024-11-26 11:18:25.177 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 11:18:25.182 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 1580(Long)
+2024-11-26 11:18:25.304 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 1
+2024-11-26 11:18:25.309 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByID: product = Product(id=1580, otherProduct=[], onSaleList=[], skuSn=null, name=奶糖, originalPrice=200, weight=750, barcode=6925083631962, unit=桶, originPlace=广州, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=1580, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=2024-11-26T11:18:24)
+2024-11-26 11:18:25.578 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    56800 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:25.709 [main] DEBUG c.e.x.j.p.m.g.P.updateByPrimaryKeySelective - ==>  Preparing: UPDATE goods_product SET `name` = ?, `original_price` = ?, `modifier_id` = ?, `gmt_modified` = ?, `status` = ? WHERE (`id` = ?)
+2024-11-26 11:18:25.712 [main] DEBUG c.e.x.j.p.m.g.P.updateByPrimaryKeySelective - ==> Parameters: 奶糖(String), 200(Long), 158011(Long), 2024-11-26T11:18:25.708376200(LocalDateTime), 0(Byte), 158011(Long)
+2024-11-26 11:18:25.820 [main] DEBUG c.e.x.j.p.m.g.P.updateByPrimaryKeySelective - <==    Updates: 0
+2024-11-26 11:18:25.824 [main] INFO  cn.edu.xmu.javaee.core.aop.ControllerAspect - doAround: BusinessException， errno = RESOURCE_ID_NOTEXIST
+2024-11-26 11:18:25.969 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    66000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:26.049 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.deleteByPrimaryKey - ==>  Preparing: delete from goods_product where `id` = ?
+2024-11-26 11:18:26.051 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.deleteByPrimaryKey - ==> Parameters: 1580(Long)
+2024-11-26 11:18:26.180 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.deleteByPrimaryKey - <==    Updates: 1
+2024-11-26 11:18:26.193 [main] DEBUG c.e.x.j.p.controller.AdminProductController - getProductById: id = 1580 
+2024-11-26 11:18:26.193 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 1580, all = false
+2024-11-26 11:18:26.196 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 11:18:26.200 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 1580(Long)
+2024-11-26 11:18:26.263 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 0
+2024-11-26 11:18:26.267 [main] INFO  cn.edu.xmu.javaee.core.aop.ControllerAspect - doAround: BusinessException， errno = RESOURCE_ID_NOTEXIST
+2024-11-26 11:18:26.430 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    49800 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:26.526 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.deleteByPrimaryKey - ==>  Preparing: delete from goods_product where `id` = ?
+2024-11-26 11:18:26.528 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.deleteByPrimaryKey - ==> Parameters: 1580112(Long)
+2024-11-26 11:18:26.651 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.deleteByPrimaryKey - <==    Updates: 0
+2024-11-26 11:18:26.653 [main] INFO  cn.edu.xmu.javaee.core.aop.ControllerAspect - doAround: BusinessException， errno = RESOURCE_ID_NOTEXIST
+2024-11-26 11:18:26.787 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    52500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:26.927 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.insertSelective - ==>  Preparing: INSERT INTO goods_product (`name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `gmt_create`, `status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-26 11:18:26.931 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.insertSelective - ==> Parameters: 水果糖(String), 100(Long), 807(Long), 1234455(String), 盒(String), 长沙(String), 2024-11-26T11:18:26.924324100(LocalDateTime), 0(Byte)
+2024-11-26 11:18:27.058 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.insertSelective - <==    Updates: 1
+2024-11-26 11:18:27.059 [main] DEBUG c.e.x.j.p.m.g.P.insertSelective!selectKey - ==>  Preparing: SELECT LAST_INSERT_ID()
+2024-11-26 11:18:27.060 [main] DEBUG c.e.x.j.p.m.g.P.insertSelective!selectKey - ==> Parameters: 
+2024-11-26 11:18:27.138 [main] DEBUG c.e.x.j.p.m.g.P.insertSelective!selectKey - <==      Total: 1
+2024-11-26 11:18:27.237 [main] DEBUG c.e.x.j.p.controller.AdminProductController - getProductById: id = 5500 
+2024-11-26 11:18:27.238 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 5500, all = false
+2024-11-26 11:18:27.239 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 11:18:27.241 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 5500(Long)
+2024-11-26 11:18:27.307 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 1
+2024-11-26 11:18:27.309 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByID: product = Product(id=5500, otherProduct=[], onSaleList=[], skuSn=null, name=水果糖, originalPrice=100, weight=807, barcode=1234455, unit=盒, originPlace=长沙, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=null, name=null), modifier=User(id=null, name=null), gmtCreate=2024-11-26T11:18:27, gmtModified=null)
+2024-11-26 11:18:27.447 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    57000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:27.586 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`name` = ?))
+2024-11-26 11:18:27.589 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==> Parameters: 奥利奥缤纷双果味(String)
+2024-11-26 11:18:27.654 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - <==      Total: 1
+2024-11-26 11:18:27.656 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByName: productList = [Product(id=1559, otherProduct=[], onSaleList=[], skuSn=null, name=奥利奥缤纷双果味, originalPrice=13522, weight=106, barcode=6901668054012, unit=盒, originPlace=江苏, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)]
+2024-11-26 11:18:27.880 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    64600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:27.958 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`name` = ?))
+2024-11-26 11:18:27.960 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==> Parameters: 奥(String)
+2024-11-26 11:18:28.020 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - <==      Total: 0
+2024-11-26 11:18:28.022 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByName: productList = []
+2024-11-26 11:18:28.163 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    58400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:28.263 [main] DEBUG c.e.x.j.p.controller.AdminProductController - getProductById: id = 1550 
+2024-11-26 11:18:28.265 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 1550, all = false
+2024-11-26 11:18:28.267 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 11:18:28.269 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 1550(Long)
+2024-11-26 11:18:28.334 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 1
+2024-11-26 11:18:28.335 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByID: product = Product(id=1550, otherProduct=[], onSaleList=[], skuSn=null, name=欢乐家久宝桃罐头, originalPrice=59337, weight=700, barcode=6924254673572, unit=瓶, originPlace=广东, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)
+2024-11-26 11:18:28.499 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    59600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:28.577 [main] DEBUG c.e.x.j.p.controller.AdminProductController - getProductById: id = 1550122 
+2024-11-26 11:18:28.579 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 1550122, all = false
+2024-11-26 11:18:28.580 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 11:18:28.581 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 1550122(Long)
+2024-11-26 11:18:28.651 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 0
+2024-11-26 11:18:28.653 [main] INFO  cn.edu.xmu.javaee.core.aop.ControllerAspect - doAround: BusinessException， errno = RESOURCE_ID_NOTEXIST
+2024-11-26 11:18:28.774 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    71400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:28.929 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`name` = ?))
+2024-11-26 11:18:28.930 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==> Parameters: 奥利奥缤纷双果味(String)
+2024-11-26 11:18:29.000 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - <==      Total: 1
+2024-11-26 11:18:29.021 [main] DEBUG c.e.x.j.p.m.g.OnSalePoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `product_id`, `price`, `begin_time`, `end_time`, `quantity`, `type`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `max_quantity`, `invalid` FROM goods_onsale WHERE ((`product_id` = ? and `begin_time` <= ? and `end_time` >= ?)) ORDER BY end_time DESC
+2024-11-26 11:18:29.024 [main] DEBUG c.e.x.j.p.m.g.OnSalePoMapper.selectByExample - ==> Parameters: 1559(Long), 2024-11-26T11:18:29.002179300(LocalDateTime), 2024-11-26T11:18:29.002179300(LocalDateTime)
+2024-11-26 11:18:29.086 [main] DEBUG c.e.x.j.p.m.g.OnSalePoMapper.selectByExample - <==      Total: 1
+2024-11-26 11:18:29.097 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`goods_id` = ? and `id` <> ?))
+2024-11-26 11:18:29.103 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==> Parameters: 448(Long), 1559(Long)
+2024-11-26 11:18:29.179 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - <==      Total: 7
+2024-11-26 11:18:29.184 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByName: productList = [Product(id=1559, otherProduct=[Product(id=1745, otherProduct=[], onSaleList=[], skuSn=null, name=140麻辣王, originalPrice=59928, weight=140, barcode=6934284612632, unit=袋, originPlace=平顶山, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2023, otherProduct=[], onSaleList=[], skuSn=null, name=雅客超冰无糖纯, originalPrice=4514, weight=56, barcode=6921292711747, unit=瓶, originPlace=福建, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2411, otherProduct=[], onSaleList=[], skuSn=null, name=25咖啡巧力, originalPrice=9852, weight=25, barcode=6920864502240, unit=, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3026, otherProduct=[], onSaleList=[], skuSn=null, name=25000雪碧, originalPrice=99491, weight=25000, barcode=6901939721290, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3462, otherProduct=[], onSaleList=[], skuSn=null, name=护舒宝超值棉柔贴身日用卫生巾, originalPrice=80315, weight=20, barcode=6903148091081, unit=包, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3640, otherProduct=[], onSaleList=[], skuSn=null, name=一见钟情酸奶, originalPrice=75862, weight=200, barcode=6906301303991, unit=包, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4588, otherProduct=[], onSaleList=[], skuSn=null, name=韩尚美净化美白粉底液, originalPrice=89416, weight=50, barcode=6921199170807, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)], onSaleList=[OnSale(id=10, price=398, beginTime=2022-11-11T14:38:20, endTime=2028-02-19T14:38:20, quantity=24, maxQuantity=50, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T14:38:20, gmtModified=null)], skuSn=null, name=奥利奥缤纷双果味, originalPrice=13522, weight=106, barcode=6901668054012, unit=盒, originPlace=江苏, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)]
+2024-11-26 11:18:29.337 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    62000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:29.429 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`name` = ?))
+2024-11-26 11:18:29.431 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==> Parameters: 奥(String)
+2024-11-26 11:18:29.494 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - <==      Total: 0
+2024-11-26 11:18:29.495 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByName: productList = []
+2024-11-26 11:18:29.622 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    66500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:29.698 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`name` = ?))
+2024-11-26 11:18:29.701 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==> Parameters: 圣峰冰茶牙膏(String)
+2024-11-26 11:18:29.767 [main] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - ====>  Preparing: select `id`, `product_id`, `price`, `begin_time`, `end_time`, `quantity`, `max_quantity`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified` from goods_onsale where `product_id` = ? and `begin_time` <= NOW() and `end_time` > NOW()
+2024-11-26 11:18:29.769 [main] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - ====> Parameters: 1605(Long)
+2024-11-26 11:18:29.829 [main] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - <====      Total: 1
+2024-11-26 11:18:29.831 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - ====>  Preparing: select `id`, `goods_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified` from goods_product where `goods_id` = ?
+2024-11-26 11:18:29.833 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - ====> Parameters: 221(Long)
+2024-11-26 11:18:29.918 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - <====      Total: 4
+2024-11-26 11:18:29.919 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - <==      Total: 1
+2024-11-26 11:18:29.924 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - findProductByName_manual: productList = [Product(id=1605, otherProduct=[Product(id=2263, otherProduct=[], onSaleList=[], skuSn=null, name=香辣牛肉王, originalPrice=57892, weight=340, barcode=6902890225775, unit=袋, originPlace=漯河, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3548, otherProduct=[], onSaleList=[], skuSn=null, name=红玫瑰洗洁精, originalPrice=55430, weight=200, barcode=6904032020071, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4381, otherProduct=[], onSaleList=[], skuSn=null, name=月月舒特惠礼包, originalPrice=94791, weight=45, barcode=6920475938384, unit=包, originPlace=上海, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)], onSaleList=[OnSale(id=56, price=13069, beginTime=2021-11-11T14:38:20, endTime=2027-02-19T14:38:20, quantity=51, maxQuantity=50, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T14:38:20, gmtModified=null)], skuSn=null, name=圣峰冰茶牙膏, originalPrice=22134, weight=90, barcode=6938541200198, unit=支, originPlace=广州, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)]
+2024-11-26 11:18:30.052 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    58400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:30.135 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`name` = ?))
+2024-11-26 11:18:30.139 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==> Parameters: 奥(String)
+2024-11-26 11:18:30.203 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - <==      Total: 0
+2024-11-26 11:18:30.207 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - findProductByName_manual: productList = []
+2024-11-26 11:18:30.345 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    81200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:30.416 [main] DEBUG c.e.x.j.p.controller.ProductController - getProductById: id = 1550 
+2024-11-26 11:18:30.417 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 1550, all = true
+2024-11-26 11:18:30.418 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 11:18:30.419 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 1550(Long)
+2024-11-26 11:18:30.521 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 1
+2024-11-26 11:18:30.524 [main] DEBUG c.e.x.j.p.m.g.OnSalePoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `product_id`, `price`, `begin_time`, `end_time`, `quantity`, `type`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `max_quantity`, `invalid` FROM goods_onsale WHERE ((`product_id` = ? and `begin_time` <= ? and `end_time` >= ?)) ORDER BY end_time DESC
+2024-11-26 11:18:30.526 [main] DEBUG c.e.x.j.p.m.g.OnSalePoMapper.selectByExample - ==> Parameters: 1550(Long), 2024-11-26T11:18:30.522119200(LocalDateTime), 2024-11-26T11:18:30.522119200(LocalDateTime)
+2024-11-26 11:18:30.590 [main] DEBUG c.e.x.j.p.m.g.OnSalePoMapper.selectByExample - <==      Total: 1
+2024-11-26 11:18:30.593 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`goods_id` = ? and `id` <> ?))
+2024-11-26 11:18:30.594 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==> Parameters: 447(Long), 1550(Long)
+2024-11-26 11:18:30.664 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - <==      Total: 9
+2024-11-26 11:18:30.666 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByID: product = Product(id=1550, otherProduct=[Product(id=2079, otherProduct=[], onSaleList=[], skuSn=null, name=瓜果刨, originalPrice=97120, weight=6, barcode=6944128601074, unit=个, originPlace=广东, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2358, otherProduct=[], onSaleList=[], skuSn=null, name=梅花味精, originalPrice=59814, weight=400, barcode=6916807970047, unit=, originPlace=河北, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2439, otherProduct=[], onSaleList=[], skuSn=null, name=维达果园飘香迷你纸, originalPrice=92672, weight=30, barcode=6901236390481, unit=包, originPlace=391, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2929, otherProduct=[], onSaleList=[], skuSn=null, name=干一杯, originalPrice=34723, weight=500, barcode=6901382450459, unit=瓶, originPlace=四川, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3056, otherProduct=[], onSaleList=[], skuSn=null, name=娃哈哈原味, originalPrice=31041, weight=500, barcode=6902083893651, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3535, otherProduct=[], onSaleList=[], skuSn=null, name=水晶白去死皮素, originalPrice=50095, weight=120, barcode=6903571003774, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3671, otherProduct=[], onSaleList=[], skuSn=null, name=杜康三星, originalPrice=17627, weight=500, barcode=6906638968139, unit=, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4315, otherProduct=[], onSaleList=[], skuSn=null, name=柏丽丝茶精华嗜喱, originalPrice=23738, weight=190, barcode=6920268205938, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4971, otherProduct=[], onSaleList=[], skuSn=null, name=创雅诺男内裤, originalPrice=30993, weight=8706, barcode=6922360131092, unit=盒, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)], onSaleList=[OnSale(id=1, price=53295, beginTime=2021-11-11T14:38:20, endTime=2029-02-19T14:38:20, quantity=2000, maxQuantity=50, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T14:38:20, gmtModified=null)], skuSn=null, name=欢乐家久宝桃罐头, originalPrice=59337, weight=700, barcode=6924254673572, unit=瓶, originPlace=广东, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)
+2024-11-26 11:18:30.838 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    60700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:30.929 [main] DEBUG c.e.x.j.p.controller.ProductController - getProductById: id = 1550122 
+2024-11-26 11:18:30.930 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 1550122, all = true
+2024-11-26 11:18:30.933 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 11:18:30.935 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 1550122(Long)
+2024-11-26 11:18:30.996 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 0
+2024-11-26 11:18:30.999 [main] INFO  cn.edu.xmu.javaee.core.aop.ControllerAspect - doAround: BusinessException， errno = RESOURCE_ID_NOTEXIST
+2024-11-26 11:18:31.113 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    63600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:31.191 [main] DEBUG c.e.x.j.p.controller.ProductController - getProductById: id = 1574 
+2024-11-26 11:18:31.191 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById_manual: id = 1574
+2024-11-26 11:18:31.194 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`id` = ?))
+2024-11-26 11:18:31.195 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==> Parameters: 1574(Long)
+2024-11-26 11:18:31.264 [main] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - ====>  Preparing: select `id`, `product_id`, `price`, `begin_time`, `end_time`, `quantity`, `max_quantity`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified` from goods_onsale where `product_id` = ? and `begin_time` <= NOW() and `end_time` > NOW()
+2024-11-26 11:18:31.266 [main] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - ====> Parameters: 1574(Long)
+2024-11-26 11:18:31.325 [main] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - <====      Total: 1
+2024-11-26 11:18:31.326 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - ====>  Preparing: select `id`, `goods_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified` from goods_product where `goods_id` = ?
+2024-11-26 11:18:31.327 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - ====> Parameters: 393(Long)
+2024-11-26 11:18:31.389 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - <====      Total: 7
+2024-11-26 11:18:31.390 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - <==      Total: 1
+2024-11-26 11:18:31.390 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - findProductByID_manual: product = Product(id=1574, otherProduct=[Product(id=1792, otherProduct=[], onSaleList=[], skuSn=null, name=好迪超爽特硬啫哩水, originalPrice=25908, weight=150, barcode=6907435668758, unit=瓶, originPlace=广东, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=1999, otherProduct=[], onSaleList=[], skuSn=null, name=飘柔洗发露, originalPrice=47542, weight=400, barcode=6903148030363, unit=瓶, originPlace=广州, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2983, otherProduct=[], onSaleList=[], skuSn=null, name=乌江菜上皇爽口下饭菜168, originalPrice=55767, weight=50, barcode=6901754080345, unit=袋, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4551, otherProduct=[], onSaleList=[], skuSn=null, name=川灵三丝, originalPrice=94001, weight=50, barcode=6921037821113, unit=袋, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=5338, otherProduct=[], onSaleList=[], skuSn=null, name=神田炖排骨料30, originalPrice=4784, weight=1012, barcode=6923537233397, unit=袋, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=5407, otherProduct=[], onSaleList=[], skuSn=null, name=蒙牛葡萄果粒酸奶, originalPrice=74797, weight=125, barcode=6923644261078, unit=个, originPlace=内蒙古自治区, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)], onSaleList=[OnSale(id=25, price=3678, beginTime=2021-11-11T14:38:20, endTime=2027-02-19T14:38:20, quantity=30, maxQuantity=50, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T14:38:20, gmtModified=null)], skuSn=null, name=万丽洁厕精, originalPrice=6142, weight=500, barcode=6901121300298, unit=瓶, originPlace=广州, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)
+2024-11-26 11:18:31.522 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    67900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:31.595 [main] DEBUG c.e.x.j.p.controller.ProductController - getProductById: id = 1550122 
+2024-11-26 11:18:31.596 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById_manual: id = 1550122
+2024-11-26 11:18:31.598 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`id` = ?))
+2024-11-26 11:18:31.601 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==> Parameters: 1550122(Long)
+2024-11-26 11:18:31.656 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - <==      Total: 0
+2024-11-26 11:18:31.657 [main] INFO  cn.edu.xmu.javaee.core.aop.ControllerAspect - doAround: BusinessException， errno = RESOURCE_ID_NOTEXIST
+2024-11-26 11:18:31.779 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    58600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:18:31.946 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-26 11:18:31.955 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-11-26 11:18:31.975 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-11-26 11:19:26.458 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-26 11:19:26.642 [main] INFO  c.e.x.j.productdemoaop.ProductDemoAOPApplication - Starting ProductDemoAOPApplication using Java 17.0.12 with PID 12940 (D:\Code\Java\SpringAOP\7.SpringAOP\7.SpringAOP\productdemoaop\target\classes started by 李可羿 in D:\Code\Java\SpringAOP\7.SpringAOP\7.SpringAOP\productdemoaop)
+2024-11-26 11:19:26.645 [main] DEBUG c.e.x.j.productdemoaop.ProductDemoAOPApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-11-26 11:19:26.648 [main] INFO  c.e.x.j.productdemoaop.ProductDemoAOPApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-26 11:19:29.677 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-26 11:19:29.687 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-26 11:19:30.113 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 405 ms. Found 1 JPA repository interface.
+2024-11-26 11:19:30.153 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-26 11:19:30.155 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 11:19:30.190 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.edu.xmu.javaee.productdemoaop.ProductRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-26 11:19:30.190 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2024-11-26 11:19:32.081 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-26 11:19:32.085 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-11-26 11:19:32.086 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-11-26 11:19:32.112 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-11-26 11:19:32.135 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-26 11:19:32.144 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 11:19:32.145 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 11:19:32.278 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 11:19:32.281 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5418 ms
+2024-11-26 11:19:33.221 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-11-26 11:19:34.305 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-26 11:19:34.384 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-26 11:19:34.442 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-26 11:19:34.929 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-26 11:19:37.113 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-26 11:19:37.120 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-26 11:19:39.213 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:19:39.215 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:19:39.345 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:19:39.431 [main] INFO  o.s.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-26 11:19:39.761 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:19:39.768 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:19:40.229 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:19:40.245 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:19:40.246 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:19:40.283 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:19:40.832 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-26 11:19:43.596 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2024-11-26 11:19:43.766 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-26 11:19:43.860 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-11-26 11:19:43.912 [main] INFO  c.e.x.j.productdemoaop.ProductDemoAOPApplication - Started ProductDemoAOPApplication in 18.428 seconds (process running for 20.448)
+2024-11-26 11:20:29.578 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-26 11:20:29.579 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-11-26 11:20:29.583 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-11-26 11:20:29.691 [http-nio-8080-exec-1] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:20:29.854 [http-nio-8080-exec-1] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:20:30.210 [http-nio-8080-exec-2] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:20:30.374 [http-nio-8080-exec-2] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:20:35.027 [http-nio-8080-exec-3] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:20:35.036 [http-nio-8080-exec-3] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:20:45.009 [http-nio-8080-exec-4] DEBUG c.e.x.j.p.controller.ProductController - getProductById: id = 1550 
+2024-11-26 11:20:45.123 [http-nio-8080-exec-4] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById_redis: id = 1550
+2024-11-26 11:20:45.123 [http-nio-8080-exec-4] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - findProductByID_redis: productId = 1550
+2024-11-26 11:20:46.440 [http-nio-8080-exec-4] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`id` = ?))
+2024-11-26 11:20:46.506 [http-nio-8080-exec-4] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==> Parameters: 1550(Long)
+2024-11-26 11:20:46.603 [http-nio-8080-exec-4] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - ====>  Preparing: select `id`, `product_id`, `price`, `begin_time`, `end_time`, `quantity`, `max_quantity`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified` from goods_onsale where `product_id` = ? and `begin_time` <= NOW() and `end_time` > NOW()
+2024-11-26 11:20:46.605 [http-nio-8080-exec-4] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - ====> Parameters: 1550(Long)
+2024-11-26 11:20:46.661 [http-nio-8080-exec-4] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - <====      Total: 1
+2024-11-26 11:20:46.663 [http-nio-8080-exec-4] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - ====>  Preparing: select `id`, `goods_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified` from goods_product where `goods_id` = ?
+2024-11-26 11:20:46.664 [http-nio-8080-exec-4] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - ====> Parameters: 447(Long)
+2024-11-26 11:20:46.736 [http-nio-8080-exec-4] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - <====      Total: 10
+2024-11-26 11:20:46.737 [http-nio-8080-exec-4] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - <==      Total: 1
+2024-11-26 11:20:46.833 [http-nio-8080-exec-4] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - findProductByID_redis: Cache miss, fetched from DB and saved to cache, product = Product(id=1550, otherProduct=[Product(id=2079, otherProduct=[], onSaleList=[], skuSn=null, name=瓜果刨, originalPrice=97120, weight=6, barcode=6944128601074, unit=个, originPlace=广东, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2358, otherProduct=[], onSaleList=[], skuSn=null, name=梅花味精, originalPrice=59814, weight=400, barcode=6916807970047, unit=, originPlace=河北, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2439, otherProduct=[], onSaleList=[], skuSn=null, name=维达果园飘香迷你纸, originalPrice=92672, weight=30, barcode=6901236390481, unit=包, originPlace=391, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2929, otherProduct=[], onSaleList=[], skuSn=null, name=干一杯, originalPrice=34723, weight=500, barcode=6901382450459, unit=瓶, originPlace=四川, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3056, otherProduct=[], onSaleList=[], skuSn=null, name=娃哈哈原味, originalPrice=31041, weight=500, barcode=6902083893651, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3535, otherProduct=[], onSaleList=[], skuSn=null, name=水晶白去死皮素, originalPrice=50095, weight=120, barcode=6903571003774, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3671, otherProduct=[], onSaleList=[], skuSn=null, name=杜康三星, originalPrice=17627, weight=500, barcode=6906638968139, unit=, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4315, otherProduct=[], onSaleList=[], skuSn=null, name=柏丽丝茶精华嗜喱, originalPrice=23738, weight=190, barcode=6920268205938, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4971, otherProduct=[], onSaleList=[], skuSn=null, name=创雅诺男内裤, originalPrice=30993, weight=8706, barcode=6922360131092, unit=盒, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)], onSaleList=[OnSale(id=1, price=53295, beginTime=2021-11-11T14:38:20, endTime=2029-02-19T14:38:20, quantity=2000, maxQuantity=50, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T14:38:20, gmtModified=null)], skuSn=null, name=欢乐家久宝桃罐头, originalPrice=59337, weight=700, barcode=6924254673572, unit=瓶, originPlace=广东, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)
+2024-11-26 11:20:47.040 [http-nio-8080-exec-4] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    52785700 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:20:52.901 [http-nio-8080-exec-5] DEBUG c.e.x.j.p.controller.ProductController - getProductById: id = 1550 
+2024-11-26 11:20:52.950 [http-nio-8080-exec-5] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById_redis: id = 1550
+2024-11-26 11:20:52.951 [http-nio-8080-exec-5] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - findProductByID_redis: productId = 1550
+2024-11-26 11:20:53.077 [http-nio-8080-exec-5] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - findProductByID_redis: Cache hit, product = Product(id=1550, otherProduct=[Product(id=2079, otherProduct=[], onSaleList=[], skuSn=null, name=瓜果刨, originalPrice=97120, weight=6, barcode=6944128601074, unit=个, originPlace=广东, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2358, otherProduct=[], onSaleList=[], skuSn=null, name=梅花味精, originalPrice=59814, weight=400, barcode=6916807970047, unit=, originPlace=河北, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2439, otherProduct=[], onSaleList=[], skuSn=null, name=维达果园飘香迷你纸, originalPrice=92672, weight=30, barcode=6901236390481, unit=包, originPlace=391, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2929, otherProduct=[], onSaleList=[], skuSn=null, name=干一杯, originalPrice=34723, weight=500, barcode=6901382450459, unit=瓶, originPlace=四川, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3056, otherProduct=[], onSaleList=[], skuSn=null, name=娃哈哈原味, originalPrice=31041, weight=500, barcode=6902083893651, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3535, otherProduct=[], onSaleList=[], skuSn=null, name=水晶白去死皮素, originalPrice=50095, weight=120, barcode=6903571003774, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3671, otherProduct=[], onSaleList=[], skuSn=null, name=杜康三星, originalPrice=17627, weight=500, barcode=6906638968139, unit=, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4315, otherProduct=[], onSaleList=[], skuSn=null, name=柏丽丝茶精华嗜喱, originalPrice=23738, weight=190, barcode=6920268205938, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4971, otherProduct=[], onSaleList=[], skuSn=null, name=创雅诺男内裤, originalPrice=30993, weight=8706, barcode=6922360131092, unit=盒, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)], onSaleList=[OnSale(id=1, price=53295, beginTime=2021-11-11T14:38:20, endTime=2029-02-19T14:38:20, quantity=2000, maxQuantity=50, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T14:38:20, gmtModified=null)], skuSn=null, name=欢乐家久宝桃罐头, originalPrice=59337, weight=700, barcode=6924254673572, unit=瓶, originPlace=广东, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)
+2024-11-26 11:20:53.190 [http-nio-8080-exec-5] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    67200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 11:21:03.280 [http-nio-8080-exec-6] DEBUG c.e.x.j.p.controller.ProductController - getProductById: id = 1550 
+2024-11-26 11:21:03.330 [http-nio-8080-exec-6] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById_manual: id = 1550
+2024-11-26 11:21:03.331 [http-nio-8080-exec-6] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`id` = ?))
+2024-11-26 11:21:03.332 [http-nio-8080-exec-6] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==> Parameters: 1550(Long)
+2024-11-26 11:21:03.384 [http-nio-8080-exec-6] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - ====>  Preparing: select `id`, `product_id`, `price`, `begin_time`, `end_time`, `quantity`, `max_quantity`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified` from goods_onsale where `product_id` = ? and `begin_time` <= NOW() and `end_time` > NOW()
+2024-11-26 11:21:03.385 [http-nio-8080-exec-6] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - ====> Parameters: 1550(Long)
+2024-11-26 11:21:03.437 [http-nio-8080-exec-6] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - <====      Total: 1
+2024-11-26 11:21:03.438 [http-nio-8080-exec-6] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - ====>  Preparing: select `id`, `goods_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified` from goods_product where `goods_id` = ?
+2024-11-26 11:21:03.439 [http-nio-8080-exec-6] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - ====> Parameters: 447(Long)
+2024-11-26 11:21:03.508 [http-nio-8080-exec-6] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - <====      Total: 10
+2024-11-26 11:21:03.509 [http-nio-8080-exec-6] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - <==      Total: 1
+2024-11-26 11:21:03.510 [http-nio-8080-exec-6] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - findProductByID_manual: product = Product(id=1550, otherProduct=[Product(id=2079, otherProduct=[], onSaleList=[], skuSn=null, name=瓜果刨, originalPrice=97120, weight=6, barcode=6944128601074, unit=个, originPlace=广东, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2358, otherProduct=[], onSaleList=[], skuSn=null, name=梅花味精, originalPrice=59814, weight=400, barcode=6916807970047, unit=, originPlace=河北, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2439, otherProduct=[], onSaleList=[], skuSn=null, name=维达果园飘香迷你纸, originalPrice=92672, weight=30, barcode=6901236390481, unit=包, originPlace=391, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2929, otherProduct=[], onSaleList=[], skuSn=null, name=干一杯, originalPrice=34723, weight=500, barcode=6901382450459, unit=瓶, originPlace=四川, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3056, otherProduct=[], onSaleList=[], skuSn=null, name=娃哈哈原味, originalPrice=31041, weight=500, barcode=6902083893651, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3535, otherProduct=[], onSaleList=[], skuSn=null, name=水晶白去死皮素, originalPrice=50095, weight=120, barcode=6903571003774, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3671, otherProduct=[], onSaleList=[], skuSn=null, name=杜康三星, originalPrice=17627, weight=500, barcode=6906638968139, unit=, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4315, otherProduct=[], onSaleList=[], skuSn=null, name=柏丽丝茶精华嗜喱, originalPrice=23738, weight=190, barcode=6920268205938, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4971, otherProduct=[], onSaleList=[], skuSn=null, name=创雅诺男内裤, originalPrice=30993, weight=8706, barcode=6922360131092, unit=盒, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)], onSaleList=[OnSale(id=1, price=53295, beginTime=2021-11-11T14:38:20, endTime=2029-02-19T14:38:20, quantity=2000, maxQuantity=50, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T14:38:20, gmtModified=null)], skuSn=null, name=欢乐家久宝桃罐头, originalPrice=59337, weight=700, barcode=6924254673572, unit=瓶, originPlace=广东, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)
+2024-11-26 11:21:03.616 [http-nio-8080-exec-6] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    72500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:02.934 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-26 21:07:02.985 [main] INFO  c.e.x.j.p.controller.AdminProductControllerTest - Starting AdminProductControllerTest using Java 17.0.12 with PID 25336 (started by 李可羿 in D:\github\SpringAOP\7.SpringAOP\7.SpringAOP\productdemoaop)
+2024-11-26 21:07:02.986 [main] DEBUG c.e.x.j.p.controller.AdminProductControllerTest - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-11-26 21:07:02.987 [main] INFO  c.e.x.j.p.controller.AdminProductControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-26 21:07:04.222 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-26 21:07:04.224 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-26 21:07:04.382 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interface.
+2024-11-26 21:07:04.402 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-26 21:07:04.403 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-26 21:07:04.426 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.edu.xmu.javaee.productdemoaop.ProductRepo; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-26 21:07:04.426 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-11-26 21:07:05.621 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-11-26 21:07:06.606 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-26 21:07:06.647 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-26 21:07:06.673 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-26 21:07:06.967 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-26 21:07:08.121 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-26 21:07:08.124 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-26 21:07:09.061 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:09.062 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:09.140 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:09.203 [main] INFO  o.s.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-26 21:07:09.388 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:09.390 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:09.773 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:09.779 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:09.780 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:09.784 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:10.429 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-26 21:07:12.084 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-11-26 21:07:12.084 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2024-11-26 21:07:12.100 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2024-11-26 21:07:12.135 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 49 ms
+2024-11-26 21:07:12.229 [main] INFO  c.e.x.j.p.controller.AdminProductControllerTest - Started AdminProductControllerTest in 9.618 seconds (process running for 11.001)
+2024-11-26 21:07:13.266 [main] DEBUG c.e.x.j.p.m.g.P.updateByPrimaryKeySelective - ==>  Preparing: UPDATE goods_product SET `name` = ?, `original_price` = ?, `modifier_id` = ?, `gmt_modified` = ?, `status` = ? WHERE (`id` = ?)
+2024-11-26 21:07:13.288 [main] DEBUG c.e.x.j.p.m.g.P.updateByPrimaryKeySelective - ==> Parameters: 奶糖(String), 200(Long), 1580(Long), 2024-11-26T21:07:13.238684700(LocalDateTime), 0(Byte), 1580(Long)
+2024-11-26 21:07:13.413 [main] DEBUG c.e.x.j.p.m.g.P.updateByPrimaryKeySelective - <==    Updates: 1
+2024-11-26 21:07:13.564 [main] DEBUG c.e.x.j.p.controller.AdminProductController - getProductById: id = 1580 
+2024-11-26 21:07:13.567 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 1580, all = false
+2024-11-26 21:07:13.570 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 21:07:13.571 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 1580(Long)
+2024-11-26 21:07:13.644 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 1
+2024-11-26 21:07:13.644 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByID: product = Product(id=1580, otherProduct=[], onSaleList=[], skuSn=null, name=奶糖, originalPrice=200, weight=750, barcode=6925083631962, unit=桶, originPlace=广州, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=1580, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=2024-11-26T21:07:13)
+2024-11-26 21:07:13.784 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    39800 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:13.858 [main] DEBUG c.e.x.j.p.m.g.P.updateByPrimaryKeySelective - ==>  Preparing: UPDATE goods_product SET `name` = ?, `original_price` = ?, `modifier_id` = ?, `gmt_modified` = ?, `status` = ? WHERE (`id` = ?)
+2024-11-26 21:07:13.858 [main] DEBUG c.e.x.j.p.m.g.P.updateByPrimaryKeySelective - ==> Parameters: 奶糖(String), 200(Long), 158011(Long), 2024-11-26T21:07:13.857124400(LocalDateTime), 0(Byte), 158011(Long)
+2024-11-26 21:07:13.960 [main] DEBUG c.e.x.j.p.m.g.P.updateByPrimaryKeySelective - <==    Updates: 0
+2024-11-26 21:07:13.961 [main] INFO  cn.edu.xmu.javaee.core.aop.ControllerAspect - doAround: BusinessException， errno = RESOURCE_ID_NOTEXIST
+2024-11-26 21:07:14.072 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    26800 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:14.130 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.deleteByPrimaryKey - ==>  Preparing: delete from goods_product where `id` = ?
+2024-11-26 21:07:14.131 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.deleteByPrimaryKey - ==> Parameters: 1580(Long)
+2024-11-26 21:07:14.246 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.deleteByPrimaryKey - <==    Updates: 1
+2024-11-26 21:07:14.251 [main] DEBUG c.e.x.j.p.controller.AdminProductController - getProductById: id = 1580 
+2024-11-26 21:07:14.252 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 1580, all = false
+2024-11-26 21:07:14.252 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 21:07:14.253 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 1580(Long)
+2024-11-26 21:07:14.302 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 0
+2024-11-26 21:07:14.304 [main] INFO  cn.edu.xmu.javaee.core.aop.ControllerAspect - doAround: BusinessException， errno = RESOURCE_ID_NOTEXIST
+2024-11-26 21:07:14.411 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    23200 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:14.472 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.deleteByPrimaryKey - ==>  Preparing: delete from goods_product where `id` = ?
+2024-11-26 21:07:14.472 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.deleteByPrimaryKey - ==> Parameters: 1580112(Long)
+2024-11-26 21:07:14.569 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.deleteByPrimaryKey - <==    Updates: 0
+2024-11-26 21:07:14.569 [main] INFO  cn.edu.xmu.javaee.core.aop.ControllerAspect - doAround: BusinessException， errno = RESOURCE_ID_NOTEXIST
+2024-11-26 21:07:14.670 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    39000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:14.746 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.insertSelective - ==>  Preparing: INSERT INTO goods_product (`name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `gmt_create`, `status`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+2024-11-26 21:07:14.747 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.insertSelective - ==> Parameters: 水果糖(String), 100(Long), 807(Long), 1234455(String), 盒(String), 长沙(String), 2024-11-26T21:07:14.745909500(LocalDateTime), 0(Byte)
+2024-11-26 21:07:14.847 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.insertSelective - <==    Updates: 1
+2024-11-26 21:07:14.847 [main] DEBUG c.e.x.j.p.m.g.P.insertSelective!selectKey - ==>  Preparing: SELECT LAST_INSERT_ID()
+2024-11-26 21:07:14.848 [main] DEBUG c.e.x.j.p.m.g.P.insertSelective!selectKey - ==> Parameters: 
+2024-11-26 21:07:14.900 [main] DEBUG c.e.x.j.p.m.g.P.insertSelective!selectKey - <==      Total: 1
+2024-11-26 21:07:14.928 [main] DEBUG c.e.x.j.p.controller.AdminProductController - getProductById: id = 5502 
+2024-11-26 21:07:14.928 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 5502, all = false
+2024-11-26 21:07:14.929 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 21:07:14.929 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 5502(Long)
+2024-11-26 21:07:14.980 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 1
+2024-11-26 21:07:14.981 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByID: product = Product(id=5502, otherProduct=[], onSaleList=[], skuSn=null, name=水果糖, originalPrice=100, weight=807, barcode=1234455, unit=盒, originPlace=长沙, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=null, name=null), modifier=User(id=null, name=null), gmtCreate=2024-11-26T21:07:15, gmtModified=null)
+2024-11-26 21:07:15.082 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    23300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:15.152 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`name` = ?))
+2024-11-26 21:07:15.153 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==> Parameters: 奥利奥缤纷双果味(String)
+2024-11-26 21:07:15.208 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - <==      Total: 1
+2024-11-26 21:07:15.209 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByName: productList = [Product(id=1559, otherProduct=[], onSaleList=[], skuSn=null, name=奥利奥缤纷双果味, originalPrice=13522, weight=106, barcode=6901668054012, unit=盒, originPlace=江苏, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)]
+2024-11-26 21:07:15.346 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    22000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:15.408 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`name` = ?))
+2024-11-26 21:07:15.409 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==> Parameters: 奥(String)
+2024-11-26 21:07:15.467 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - <==      Total: 0
+2024-11-26 21:07:15.467 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByName: productList = []
+2024-11-26 21:07:15.570 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    27600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:15.626 [main] DEBUG c.e.x.j.p.controller.AdminProductController - getProductById: id = 1550 
+2024-11-26 21:07:15.626 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 1550, all = false
+2024-11-26 21:07:15.628 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 21:07:15.628 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 1550(Long)
+2024-11-26 21:07:15.680 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 1
+2024-11-26 21:07:15.681 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByID: product = Product(id=1550, otherProduct=[], onSaleList=[], skuSn=null, name=欢乐家久宝桃罐头, originalPrice=59337, weight=700, barcode=6924254673572, unit=瓶, originPlace=广东, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)
+2024-11-26 21:07:15.787 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    24900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:15.839 [main] DEBUG c.e.x.j.p.controller.AdminProductController - getProductById: id = 1550122 
+2024-11-26 21:07:15.840 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 1550122, all = false
+2024-11-26 21:07:15.840 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 21:07:15.840 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 1550122(Long)
+2024-11-26 21:07:15.891 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 0
+2024-11-26 21:07:15.892 [main] INFO  cn.edu.xmu.javaee.core.aop.ControllerAspect - doAround: BusinessException， errno = RESOURCE_ID_NOTEXIST
+2024-11-26 21:07:16.003 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    21500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:16.082 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`name` = ?))
+2024-11-26 21:07:16.084 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==> Parameters: 奥利奥缤纷双果味(String)
+2024-11-26 21:07:16.137 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - <==      Total: 1
+2024-11-26 21:07:16.147 [main] DEBUG c.e.x.j.p.m.g.OnSalePoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `product_id`, `price`, `begin_time`, `end_time`, `quantity`, `type`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `max_quantity`, `invalid` FROM goods_onsale WHERE ((`product_id` = ? and `begin_time` <= ? and `end_time` >= ?)) ORDER BY end_time DESC
+2024-11-26 21:07:16.149 [main] DEBUG c.e.x.j.p.m.g.OnSalePoMapper.selectByExample - ==> Parameters: 1559(Long), 2024-11-26T21:07:16.138670100(LocalDateTime), 2024-11-26T21:07:16.138670100(LocalDateTime)
+2024-11-26 21:07:16.208 [main] DEBUG c.e.x.j.p.m.g.OnSalePoMapper.selectByExample - <==      Total: 1
+2024-11-26 21:07:16.212 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`goods_id` = ? and `id` <> ?))
+2024-11-26 21:07:16.214 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==> Parameters: 448(Long), 1559(Long)
+2024-11-26 21:07:16.271 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - <==      Total: 7
+2024-11-26 21:07:16.272 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByName: productList = [Product(id=1559, otherProduct=[Product(id=1745, otherProduct=[], onSaleList=[], skuSn=null, name=140麻辣王, originalPrice=59928, weight=140, barcode=6934284612632, unit=袋, originPlace=平顶山, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2023, otherProduct=[], onSaleList=[], skuSn=null, name=雅客超冰无糖纯, originalPrice=4514, weight=56, barcode=6921292711747, unit=瓶, originPlace=福建, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2411, otherProduct=[], onSaleList=[], skuSn=null, name=25咖啡巧力, originalPrice=9852, weight=25, barcode=6920864502240, unit=, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3026, otherProduct=[], onSaleList=[], skuSn=null, name=25000雪碧, originalPrice=99491, weight=25000, barcode=6901939721290, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3462, otherProduct=[], onSaleList=[], skuSn=null, name=护舒宝超值棉柔贴身日用卫生巾, originalPrice=80315, weight=20, barcode=6903148091081, unit=包, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3640, otherProduct=[], onSaleList=[], skuSn=null, name=一见钟情酸奶, originalPrice=75862, weight=200, barcode=6906301303991, unit=包, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4588, otherProduct=[], onSaleList=[], skuSn=null, name=韩尚美净化美白粉底液, originalPrice=89416, weight=50, barcode=6921199170807, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)], onSaleList=[OnSale(id=10, price=398, beginTime=2022-11-11T14:38:20, endTime=2028-02-19T14:38:20, quantity=24, maxQuantity=50, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T14:38:20, gmtModified=null)], skuSn=null, name=奥利奥缤纷双果味, originalPrice=13522, weight=106, barcode=6901668054012, unit=盒, originPlace=江苏, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)]
+2024-11-26 21:07:16.383 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    22300 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:16.441 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`name` = ?))
+2024-11-26 21:07:16.442 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==> Parameters: 奥(String)
+2024-11-26 21:07:16.503 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - <==      Total: 0
+2024-11-26 21:07:16.503 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByName: productList = []
+2024-11-26 21:07:16.614 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    38900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:16.671 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`name` = ?))
+2024-11-26 21:07:16.672 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==> Parameters: 圣峰冰茶牙膏(String)
+2024-11-26 21:07:16.728 [main] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - ====>  Preparing: select `id`, `product_id`, `price`, `begin_time`, `end_time`, `quantity`, `max_quantity`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified` from goods_onsale where `product_id` = ? and `begin_time` <= NOW() and `end_time` > NOW()
+2024-11-26 21:07:16.729 [main] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - ====> Parameters: 1605(Long)
+2024-11-26 21:07:16.783 [main] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - <====      Total: 1
+2024-11-26 21:07:16.783 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - ====>  Preparing: select `id`, `goods_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified` from goods_product where `goods_id` = ?
+2024-11-26 21:07:16.784 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - ====> Parameters: 221(Long)
+2024-11-26 21:07:16.844 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - <====      Total: 4
+2024-11-26 21:07:16.845 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - <==      Total: 1
+2024-11-26 21:07:16.847 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - findProductByName_manual: productList = [Product(id=1605, otherProduct=[Product(id=2263, otherProduct=[], onSaleList=[], skuSn=null, name=香辣牛肉王, originalPrice=57892, weight=340, barcode=6902890225775, unit=袋, originPlace=漯河, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3548, otherProduct=[], onSaleList=[], skuSn=null, name=红玫瑰洗洁精, originalPrice=55430, weight=200, barcode=6904032020071, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4381, otherProduct=[], onSaleList=[], skuSn=null, name=月月舒特惠礼包, originalPrice=94791, weight=45, barcode=6920475938384, unit=包, originPlace=上海, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)], onSaleList=[OnSale(id=56, price=13069, beginTime=2021-11-11T14:38:20, endTime=2027-02-19T14:38:20, quantity=51, maxQuantity=50, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T14:38:20, gmtModified=null)], skuSn=null, name=圣峰冰茶牙膏, originalPrice=22134, weight=90, barcode=6938541200198, unit=支, originPlace=广州, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)]
+2024-11-26 21:07:16.950 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    22500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:17.017 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`name` = ?))
+2024-11-26 21:07:17.019 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==> Parameters: 奥(String)
+2024-11-26 21:07:17.077 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - <==      Total: 0
+2024-11-26 21:07:17.080 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - findProductByName_manual: productList = []
+2024-11-26 21:07:17.182 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    19600 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:17.236 [main] DEBUG c.e.x.j.p.controller.ProductController - getProductById: id = 1550 
+2024-11-26 21:07:17.237 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 1550, all = true
+2024-11-26 21:07:17.237 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 21:07:17.237 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 1550(Long)
+2024-11-26 21:07:17.287 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 1
+2024-11-26 21:07:17.288 [main] DEBUG c.e.x.j.p.m.g.OnSalePoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `product_id`, `price`, `begin_time`, `end_time`, `quantity`, `type`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `max_quantity`, `invalid` FROM goods_onsale WHERE ((`product_id` = ? and `begin_time` <= ? and `end_time` >= ?)) ORDER BY end_time DESC
+2024-11-26 21:07:17.289 [main] DEBUG c.e.x.j.p.m.g.OnSalePoMapper.selectByExample - ==> Parameters: 1550(Long), 2024-11-26T21:07:17.288155300(LocalDateTime), 2024-11-26T21:07:17.288155300(LocalDateTime)
+2024-11-26 21:07:17.341 [main] DEBUG c.e.x.j.p.m.g.OnSalePoMapper.selectByExample - <==      Total: 1
+2024-11-26 21:07:17.343 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`goods_id` = ? and `id` <> ?))
+2024-11-26 21:07:17.344 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - ==> Parameters: 447(Long), 1550(Long)
+2024-11-26 21:07:17.403 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByExample - <==      Total: 9
+2024-11-26 21:07:17.404 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - retrieveProductByID: product = Product(id=1550, otherProduct=[Product(id=2079, otherProduct=[], onSaleList=[], skuSn=null, name=瓜果刨, originalPrice=97120, weight=6, barcode=6944128601074, unit=个, originPlace=广东, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2358, otherProduct=[], onSaleList=[], skuSn=null, name=梅花味精, originalPrice=59814, weight=400, barcode=6916807970047, unit=, originPlace=河北, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2439, otherProduct=[], onSaleList=[], skuSn=null, name=维达果园飘香迷你纸, originalPrice=92672, weight=30, barcode=6901236390481, unit=包, originPlace=391, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2929, otherProduct=[], onSaleList=[], skuSn=null, name=干一杯, originalPrice=34723, weight=500, barcode=6901382450459, unit=瓶, originPlace=四川, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3056, otherProduct=[], onSaleList=[], skuSn=null, name=娃哈哈原味, originalPrice=31041, weight=500, barcode=6902083893651, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3535, otherProduct=[], onSaleList=[], skuSn=null, name=水晶白去死皮素, originalPrice=50095, weight=120, barcode=6903571003774, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=3671, otherProduct=[], onSaleList=[], skuSn=null, name=杜康三星, originalPrice=17627, weight=500, barcode=6906638968139, unit=, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4315, otherProduct=[], onSaleList=[], skuSn=null, name=柏丽丝茶精华嗜喱, originalPrice=23738, weight=190, barcode=6920268205938, unit=瓶, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4971, otherProduct=[], onSaleList=[], skuSn=null, name=创雅诺男内裤, originalPrice=30993, weight=8706, barcode=6922360131092, unit=盒, originPlace=, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)], onSaleList=[OnSale(id=1, price=53295, beginTime=2021-11-11T14:38:20, endTime=2029-02-19T14:38:20, quantity=2000, maxQuantity=50, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T14:38:20, gmtModified=null)], skuSn=null, name=欢乐家久宝桃罐头, originalPrice=59337, weight=700, barcode=6924254673572, unit=瓶, originPlace=广东, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)
+2024-11-26 21:07:17.513 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    23800 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:17.571 [main] DEBUG c.e.x.j.p.controller.ProductController - getProductById: id = 1550122 
+2024-11-26 21:07:17.571 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById: id = 1550122, all = true
+2024-11-26 21:07:17.572 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==>  Preparing: select `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` from goods_product where `id` = ?
+2024-11-26 21:07:17.572 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - ==> Parameters: 1550122(Long)
+2024-11-26 21:07:17.622 [main] DEBUG c.e.x.j.p.m.g.ProductPoMapper.selectByPrimaryKey - <==      Total: 0
+2024-11-26 21:07:17.623 [main] INFO  cn.edu.xmu.javaee.core.aop.ControllerAspect - doAround: BusinessException， errno = RESOURCE_ID_NOTEXIST
+2024-11-26 21:07:17.726 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    24500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:17.786 [main] DEBUG c.e.x.j.p.controller.ProductController - getProductById: id = 1574 
+2024-11-26 21:07:17.787 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById_manual: id = 1574
+2024-11-26 21:07:17.788 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`id` = ?))
+2024-11-26 21:07:17.788 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==> Parameters: 1574(Long)
+2024-11-26 21:07:17.839 [main] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - ====>  Preparing: select `id`, `product_id`, `price`, `begin_time`, `end_time`, `quantity`, `max_quantity`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified` from goods_onsale where `product_id` = ? and `begin_time` <= NOW() and `end_time` > NOW()
+2024-11-26 21:07:17.839 [main] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - ====> Parameters: 1574(Long)
+2024-11-26 21:07:17.892 [main] DEBUG c.e.x.j.p.m.m.P.selectLastOnSaleByProductId - <====      Total: 1
+2024-11-26 21:07:17.892 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - ====>  Preparing: select `id`, `goods_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified` from goods_product where `goods_id` = ?
+2024-11-26 21:07:17.893 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - ====> Parameters: 393(Long)
+2024-11-26 21:07:17.952 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.selectOtherProduct - <====      Total: 7
+2024-11-26 21:07:17.952 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - <==      Total: 1
+2024-11-26 21:07:17.953 [main] DEBUG cn.edu.xmu.javaee.productdemoaop.dao.ProductDao - findProductByID_manual: product = Product(id=1574, otherProduct=[Product(id=1792, otherProduct=[], onSaleList=[], skuSn=null, name=好迪超爽特硬啫哩水, originalPrice=25908, weight=150, barcode=6907435668758, unit=瓶, originPlace=广东, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=1999, otherProduct=[], onSaleList=[], skuSn=null, name=飘柔洗发露, originalPrice=47542, weight=400, barcode=6903148030363, unit=瓶, originPlace=广州, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=2983, otherProduct=[], onSaleList=[], skuSn=null, name=乌江菜上皇爽口下饭菜168, originalPrice=55767, weight=50, barcode=6901754080345, unit=袋, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=4551, otherProduct=[], onSaleList=[], skuSn=null, name=川灵三丝, originalPrice=94001, weight=50, barcode=6921037821113, unit=袋, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=5338, otherProduct=[], onSaleList=[], skuSn=null, name=神田炖排骨料30, originalPrice=4784, weight=1012, barcode=6923537233397, unit=袋, originPlace=, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null), Product(id=5407, otherProduct=[], onSaleList=[], skuSn=null, name=蒙牛葡萄果粒酸奶, originalPrice=74797, weight=125, barcode=6923644261078, unit=个, originPlace=内蒙古自治区, commissionRatio=null, freeThreshold=null, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)], onSaleList=[OnSale(id=25, price=3678, beginTime=2021-11-11T14:38:20, endTime=2027-02-19T14:38:20, quantity=30, maxQuantity=50, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T14:38:20, gmtModified=null)], skuSn=null, name=万丽洁厕精, originalPrice=6142, weight=500, barcode=6901121300298, unit=瓶, originPlace=广州, commissionRatio=null, freeThreshold=-1, status=0, creator=User(id=1, name=admin), modifier=User(id=null, name=null), gmtCreate=2021-11-11T13:12:48, gmtModified=null)
+2024-11-26 21:07:18.066 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    28900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:18.122 [main] DEBUG c.e.x.j.p.controller.ProductController - getProductById: id = 1550122 
+2024-11-26 21:07:18.122 [main] DEBUG c.e.x.javaee.productdemoaop.service.ProductService - findProductById_manual: id = 1550122
+2024-11-26 21:07:18.123 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==>  Preparing: SELECT `id`, `shop_id`, `goods_id`, `category_id`, `template_id`, `sku_sn`, `name`, `original_price`, `weight`, `barcode`, `unit`, `origin_place`, `creator_id`, `creator_name`, `modifier_id`, `modifier_name`, `gmt_create`, `gmt_modified`, `status`, `commission_ratio`, `shop_logistic_id`, `free_threshold` FROM goods_product WHERE ((`id` = ?))
+2024-11-26 21:07:18.123 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - ==> Parameters: 1550122(Long)
+2024-11-26 21:07:18.172 [main] DEBUG c.e.x.j.p.m.m.ProductAllMapper.getProductWithAll - <==      Total: 0
+2024-11-26 21:07:18.173 [main] INFO  cn.edu.xmu.javaee.core.aop.ControllerAspect - doAround: BusinessException， errno = RESOURCE_ID_NOTEXIST
+2024-11-26 21:07:18.283 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    21500 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 pre-partial-flushes;
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+2024-11-26 21:07:18.326 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-26 21:07:18.329 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-11-26 21:07:18.334 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
