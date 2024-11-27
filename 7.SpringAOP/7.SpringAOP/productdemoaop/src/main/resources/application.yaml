@@ -59,6 +59,15 @@ spring:
         highlight_sql: false   # 高亮显示SQL语句
         use_sql_comments: true
         generate_statistics: true
+  data:
+    redis:
+      repositories:
+        #forbid redis to scan repositories
+        enabled: false
+      # redis:
+      host: redis
+      database: 0
+      password: 123456
 
 mybatis:
   #domain对象的包
@@ -69,4 +78,3 @@ mybatis:
   configuration:
     #字段名和对象属性用驼峰映射
     map-underscore-to-camel-case: true
-
